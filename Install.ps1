@@ -1,5 +1,5 @@
 ﻿$webclient = New-Object System.Net.WebClient
-$url = "https://github.com/MeshkDevs/InvokeTwitterAPIs/archive/master.zip"
+$url = "https://github.com/kenefta/InvokeTwitterAPIs/archive/master.zip"
 Write-Host "Downloading InvokeTwitterAPIs PowerShell Module from $url" -ForegroundColor Cyan
 $file = "$($env:TEMP)\InvokeTwitterAPIs.zip"
 $webclient.DownloadFile($url,$file)
