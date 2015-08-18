@@ -61,3 +61,7 @@ iex (New-Object Net.WebClient).DownloadString("https://gist.githubusercontent.co
 #Modifications
 
 Altered Invoke-ReadFromTwitterStream; added two 'usage' scripts to make it easy to call both Search REST API (https://api.twitter.com/1.1/search/tweets.json) as well as the Invoke-ReadFromTwitterStream function + save results as CSV files; changed Install.ps1 script to point to local master for kenefta.
+
+To install this modified module, use this PowerShell command:
+iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/kenefta/InvokeTwitterAPIs/master/Install.ps1")
+
